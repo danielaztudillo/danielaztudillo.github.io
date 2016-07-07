@@ -58,12 +58,12 @@ jQuery(document).ready(function() {
 
         if(windowScrollPosTop >= 150) {
           jQuery(".header").css({"background": "#B193DD",});
-          jQuery(".top-header img.logo").css({"margin-top": "-15px", "margin-bottom": "5","content": "url('http://res.cloudinary.com/nevolut/image/upload/s--D1DjjLZr--/c_imagga_crop,h_226,w_725/v1467911911/barreda_jxzspj.png')","width":"50%"});
+          jQuery(".top-header img.logo").css({"margin-top": "-15px", "margin-bottom": "5","content": "url('https://res.cloudinary.com/nevolut/image/upload/s--D1DjjLZr--/c_imagga_crop,h_226,w_725/v1467911911/barreda_jxzspj.png')","width":"50%"});
           jQuery(".navbar-default").css({"margin-top": "-15px",});
         }
         else{
           jQuery(".header").css({"background": "transparent",});
-           jQuery(".top-header img.logo").css({"margin-top": "-12px", "margin-bottom": "5px","content": "url('http://res.cloudinary.com/nevolut/image/upload/s--D1DjjLZr--/c_imagga_crop,h_226,w_725/v1467911911/barreda_jxzspj.png')","width":"100%"});
+           jQuery(".top-header img.logo").css({"margin-top": "-12px", "margin-bottom": "5px","content": "url('https://res.cloudinary.com/nevolut/image/upload/s--D1DjjLZr--/c_imagga_crop,h_226,w_725/v1467911911/barreda_jxzspj.png')","width":"100%"});
            jQuery(".navbar-default").css({"margin-top": "12px", "margin-bottom": "0"});
           
         }
