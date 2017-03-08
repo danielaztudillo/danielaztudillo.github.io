@@ -1,521 +1,947 @@
 <!DOCTYPE html>
-<html lang="en-us" class="no-js">
-
-	<head>
-		<meta charset="utf-8">
-        <title>URBANISTICS</title>
-        <meta name="description" content="The description should optimally be between 150-160 characters.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Madeon08">
-
-        <!-- ================= Favicon ================== -->
-        <!-- Standard -->
-        <link rel="shortcut icon" href="img/favicon.png">
-        <!-- Retina iPad Touch Icon-->
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-retina-ipad.png">
-        <!-- Retina iPhone Touch Icon-->
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-retina-iphone.png">
-        <!-- Standard iPad Touch Icon--> 
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-standard-ipad.png">
-        <!-- Standard iPhone Touch Icon--> 
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-standard-iphone.png">
-
-        <!-- ============== Resources style ============== -->
-        <link rel="stylesheet" href="css/style.css" />
-
-		<!-- Modernizr runs quickly on page load to detect features -->
-		<script src="js/modernizr.custom.js"></script>
-	</head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Asesores + Consultores Corporativos</title>
 	
-	<body>
+	<!-- Responsive Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon.png" />
 
-		<!-- Page preloader -->
-		<div id="loading">
-			<div id="preloader">
-				<span></span>
-				<span></span>
-			</div>
-		</div>
+	<!-- main stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 
-		<!-- Overlay and Flat Surface Shader effect -->
-		<div class="global-overlay">
-			<div class="overlay skew-part">
-
-				<div id="container">
-					<div id="output" class="back-fss"></div>
-				</div>
-
-			</div>
-		</div>
-
-		<!-- START - Home/Left Part -->
-		<section id="left-side">
-
-			<!-- Your logo -->
-			<img src="img/logoUrbanisticstransparent2.png" alt="" class="brand-logo" />
-
-			<div class="content">
-
-				<h1 class="text-intro opacity-0">Estamos trabajando para ti!<br>
-					Volveremos pronto...</h1>
-
-				<h2 class="text-intro opacity-0">Dedicados al mobiliario urbano, especializados en espacios públicos con diseños modernos y productos que son resultado de experiencia y calidad comprobada .</h2>
-
-				<nav>
-					<ul>
-						<li>
-							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">Más Información</a>
-						</li>
-						<li>
-							<a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Notificarme!</a>
-						</li>
-					</ul>
-				</nav>
-
-			</div>
-
-			<!-- Social icons -->
-			<div class="social-icons">
-
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-google-plus"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-
-			</div>
-
-		</section>
-		<!-- END - Home/Left Part -->
-
-		<!-- START - More Informations/Right Part -->
-		<section id="right-side" class="hide-right">
-
-			<div class="content">
-
-				<h3></h3>
-
-				<p></p>
-
-				<br><br>
-
-				<div class="photo-line">
-					
-					<div class="my-gallery row" itemscope itemtype="https://schema.org/ImageGallery">
-
-						<!-- Item -->
-						<figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
-							
-							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
-							<a class="box-picture" href="img/block1.jpg" itemprop="contentUrl" data-size="1920x1280">
-								
-								<!-- Your picture -->
-								<img src="img/block1.jpg" itemprop="thumbnail" alt="This is my work" class="img-responsive" />
-								<p>Click</p>
-								
-							</a>
-								
-							<!-- Picture's description below this one -->
-							<figcaption itemprop="caption description">
-
-								<div class="photo-details">
-								
-									<h4></h4>
-
-									<span class="border"></span>
-
-									<p></p>
-
-								</div>
-
-							</figcaption>
-
-						</figure>
-
-						<!-- Item -->
-						<figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
-							
-							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
-							<a class="box-picture" href="img/block2.jpg" itemprop="contentUrl" data-size="1920x1280">
-								
-								<!-- Your picture -->
-								<img src="img/block2.jpg" itemprop="thumbnail" alt="This is my work" class="img-responsive" />
-								<p>Click</p>
-								
-							</a>
-								
-							<!-- Picture's description below this one -->
-							<figcaption itemprop="caption description">
-
-								<div class="photo-details">
-								
-									<h4></h4>
-
-									<span class="border"></span>
-
-									<p></p>
-
-								</div>
-
-							</figcaption>
-
-						</figure>
-
-						<!-- Item -->
-						<figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
-							
-							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
-							<a class="box-picture" href="img/block3.jpg" itemprop="contentUrl" data-size="1920x1280">
-								
-								<!-- Your picture -->
-								<img src="img/block3.jpg" itemprop="thumbnail" alt="This is my work" class="img-responsive" />
-								<span class="widget-angle-bottom-left">
-									<span class="icon-text">
-										<i class="icon ion-ios-star"></i>
-									</span>
-								</span>
-								<p>Click</p>
-								
-							</a>
-								
-							<!-- Picture's description below this one -->
-							<figcaption itemprop="caption description">
-
-								<div class="photo-details">
-								
-									<h4></h4>
-
-									<span class="border"></span>
-
-									<p></p>
-
-								</div>
-
-							</figcaption>
-
-						</figure>
-
-						<!-- Item -->
-						<figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
-							
-							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
-							<a class="box-picture" href="img/block4.jpg" itemprop="contentUrl" data-size="1920x1280">
-								
-								<!-- Your picture -->
-								<img src="img/block4.jpg" itemprop="thumbnail" alt="This is my work" class="img-responsive" />
-								<span class="widget-angle-top-right">
-									<span class="icon-text">
-										<i class="icon ion-ios-star"></i>
-									</span>
-								</span>
-								<p></p>
-								
-							</a>
-								
-							<!-- Picture's description below this one -->
-							<figcaption itemprop="caption description">
-
-								<div class="photo-details">
-								
-									<h4></h4>
-
-									<span class="border"></span>
-
-									<p></p>
-
-								</div>
-
-							</figcaption>
-
-						</figure>
-							
-					</div>
-
-				</div>
-
-				<span class="separator"></span>
-
-				<h3>Contactanos!</h3>
-				
-				<p>Deja tu mensaje.</p>
-
-                <!-- START - Contact Form -->
-            	<form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
-
-            		<div class="row">
-
-                        <!-- Full name -->
-                        <div class="col-xs-12 col-sm-6 col-lg-6">
-                            <div class="form-group">
-                                <input type="text" id="name" class="form form-control" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" name="name" data-name="Name" required>
-                            </div>
-                        </div>
-
-                        <!-- E-mail -->
-                        <div class="col-xs-12 col-sm-6 col-lg-6">
-                            <div class="form-group">
-                                <input type="email" id="email" class="form form-control" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" name="email-address" data-name="Email Address" required>
-                            </div>
-                        </div>
-
-                        <!-- Subject -->
-                        <div class="col-xs-12 col-sm-12 col-lg-12">
-                            <div class="form-group">
-                                <input type="text" id="subject" class="form form-control" placeholder="Tema a tratar" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write the subject'" name="subject" data-name="Subject">
-                            </div>
-                        </div>
-
-                        <!-- Message -->
-                        <div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
-                            <div class="form-group">
-                                <textarea id="text-area" class="form textarea form-control" placeholder="Escribe tu mensaje...20 caracteres minimo." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here... 20 characters Min.'" name="message" data-name="Text Area" required></textarea>
-                            </div>
-                        </div>
-
-                    </div>
-
-                	<!-- Button submit -->
-                	<button type="submit" id="valid-form" class="btn btn-color">Enviar mensaje</button>
+	<!-- responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
     
-                </form>
-                <!-- END - Contact Form -->
-	            
-	            <!-- Answer for the contact form is displayed in the next div, do not remove it. -->       
-                <div id="block-answer">
 
-					<div id="answer"></div>
 
-				</div>
+</head>
+<body>
 
-				<div class="info-contact row">
+<!-- #topbar -->
+<section id="topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class="contact-info pull-left">
+                    <ul>
+                        <li><i class="fa fa-phone"></i>  + (123) 1800-453-1546 </li>
+                        <li><i class="fa fa-clock-o"></i> Mon - Fri: 9:00AM - 5:00PM    Sat - Sun: Closed</li>
+                    </ul>
+                </div> <!-- /.contact-info -->
+                <div class="social">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div> <!-- /.social -->
+            </div>
+        </div>
+    </div>
+</section> <!-- /#topbar -->
+<!-- start header -->
+<header id="header" class="stricky">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/resources/logo.png" alt="Awesome Image"/>
+            </a>
+        </div>
 
-                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
-                        <div class="contact-item"><i class="icon ion-ios-telephone"></i>
-                            <p>Phone: (+33) 66-1254-611
-                                <br>Fax: (+38) 66-1254-989</p>
-                        </div>
+        <!-- start mainmenu -->
+        <nav class="mainmenu-navigation">
+            <div class="navigation pull-right">
+                <div class="nav-header">
+                    <button><i class="fa fa-bars"></i></button>
+                </div>
+                <div class="nav-footer">
+                    <ul class="nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">about us</a></li>
+                        <li class="dropdown">
+                            <a href="#">attorney <i class="fa fa-angle-down"></i></a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="attorney.html">attorney Team</a></li>
+                                    <li><a href="attorney-profile.html">attorney-profile</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">practice-area <i class="fa fa-angle-down"></i></a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="practice-area-one.html">practice-area-one</a></li>
+                                    <li><a href="practice-area-two.html">practice-area-two</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="testimonial.html">Testimonials</a></li>
+                                    <li><a href="404.html">Error 404 page</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">blog <i class="fa fa-angle-down"></i></a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="blog-left-sidebar.html">Blog Left Bar</a></li>
+                                    <li><a href="blog-right-sidebar.html">Blog Right Bar</a></li>                   
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li><a href="contact.html">contact us</a></li>
+                    </ul>
+                </div>
+                    <ul class="search-wrapper pull-right">
+                        <li>
+                            <button class="header-search-toggler"><i class="icon icon-Search"></i></button>
+                        </li>
+                    </ul>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search Here...">
+                        <button type="submit"><i class="icon icon-Search"></i></button>
                     </div>
+            </div>
+            <div class="search-side"></div>
+        </nav>
+    </div>
+</header><!-- end header -->
 
-                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
-                        <div class="contact-item"><i class="icon ion-ios-location"></i>
-                            <p>66 Grand Central,
-                                <br>NY 66564, USA</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
-                        <div class="contact-item"><i class="icon ion-ios-email"></i>
-                            <p><a href="mailto:your-email@good.com">phly@example.com</a>
-                            	<br><a href="mailto:your-email-pro@good.com">phly-pro@example.com</a>
-                            </p>
-                        </div>
-                    </div>
-
+<section class="rev_slider_wrapper">
+	<div id="slider1" class="rev_slider"  data-version="5.0">
+		<ul>
+            <li data-transition="random">
+                <img src="img/slides/image1.jpg"  alt="" width="1920" height="900" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <div class="tp-caption tp-resizeme banner-caption-h3 ttu"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="300"
+                    data-transform_idle="o:1;"         
+                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+                    data-splitin="none" 
+                    data-splitout="none"                         
+                    data-start="500">
+                    Best Lawyers and Law Firms
+                </div>
+                <div class="tp-caption tp-resizeme banner-caption-h1 text-center ttu"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="350"
+                    data-transform_idle="o:1;"                         
+                    data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                    data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" 
+                    data-splitin="none" 
+                    data-splitout="none" 
+                    data-responsive_offset="on"                       
+                    data-start="1000">
+                    Your case in right hand
+                </div>
+                <div class="tp-caption tp-resizeme banner-caption-p text-center"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="430"                       
+                    data-transform_idle="o:1;"                         
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
+                    data-splitin="none" 
+                    data-splitout="none" 
+                    data-responsive_offset="on"                       
+                    data-start="1500">
+                    Lorem Ipsum passages, and more recently with desktop publishing software<br />over the years, sometimes by accident, sometimes on purpose.
+                </div>
+                <div class="tp-caption tp-resizeme"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="500"                       
+                    data-transform_idle="o:1;"                         
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
+                    data-splitin="none" 
+                    data-splitout="none" 
+                    data-responsive_offset="on"                       
+                    data-start="2000">
+                    <a href="#" class="thm-btn">Know About Us</a>
                 </div>
 
-			</div>
-			<!-- /. Content -->
+            </li>
+            <li data-transition="random">
+                <img src="img/slides/image2.jpg"  alt="" width="1920" height="900" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <div class="tp-caption tp-resizeme banner-caption-h3 ttu"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="300"
+                    data-transform_idle="o:1;"         
+                    data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                    data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+                    data-splitin="none" 
+                    data-splitout="none"                         
+                    data-start="500">
+                    Best Lawyers and Law Firms
+                </div>
+                <div class="tp-caption tp-resizeme banner-caption-h1 text-center ttu"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="350"
+                    data-transform_idle="o:1;"                         
+                    data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                    data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" 
+                    data-splitin="none" 
+                    data-splitout="none" 
+                    data-responsive_offset="on"                       
+                    data-start="1000">
+                    Your case in right hand
+                </div>
+                <div class="tp-caption tp-resizeme banner-caption-p text-center"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="430"                       
+                    data-transform_idle="o:1;"                         
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
+                    data-splitin="none" 
+                    data-splitout="none" 
+                    data-responsive_offset="on"                       
+                    data-start="1500">
+                    Lorem Ipsum passages, and more recently with desktop publishing software<br />over the years, sometimes by accident, sometimes on purpose.
+                </div>
+                <div class="tp-caption tp-resizeme"
+                    data-x="center" data-hoffset="0" 
+                    data-y="top" data-voffset="500"                       
+                    data-transform_idle="o:1;"                         
+                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"                     
+                    data-splitin="none" 
+                    data-splitout="none" 
+                    data-responsive_offset="on"                       
+                    data-start="2000">
+                    <a href="#" class="thm-btn">Know About Us</a>
+                </div>
 
-			<footer>
+            </li>
+		</ul>
+	</div>
+</section><!-- slider -->
 
-				<p>©Urbanistics - Powered by</p><a href="http://nevolut.com" target="_blank" style="color:#00c7a9;">NEVOLUT </a>
+<!-- start welcome -->   
+<section id="welcome-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                
+                <h1>about <span>master lawyer</span></h1>
+                <p>
+                    Since 1965, who loves or pursues or desires too obtains Attorneys of itself sed,  and pain can  him some great pleasure. To se takes a trivials example which was of us ever undertakes laborious physical exercise.
+                </p>
+                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="service-box">
+                            <div class="img-holder">
+                                <img src="img/resources/1.jpg" alt="img">
+                            </div>
+                            <h3>family low</h3>
+                            <p>
+                                Since 1965, who loves or too obtains Attorneys of itself sed, and pain can him some great pleasure. 
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet sed do eiusmod tempor incididtion velit esse fugiat nulla pariatur. 
+                            </p>
+                        </div><!-- service-box --> 
+                    </div>
 
-			</footer>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="service-box">
+                            <div class="img-holder">
+                                <img src="img/resources/2.jpg" alt="img">
+                            </div>
+                            <h3>buisness low</h3>
+                            <p>
+                                Since 1965, who loves or too obtains Attorneys of itself sed, and pain can him some great pleasure. 
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet sed do eiusmod tempor incididtion velit esse fugiat nulla pariatur. 
+                            </p>
+                        </div><!-- service-box --> 
+                    </div>
+                </div>
+            </div>
+            <!-- col -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="featured-bx">
+                    <div class="bx-first">
+                        <div class="text-bx">
+                            <h2>20</h2>
+                            <h3>YEAR OF EXPERIENCE</h3>
+                            <p>
+                                Since 1965, who loves or pursues or desires too obtains Attorneys cal exercise.
+                            </p>
+                        </div><!-- text-bx-->
+                        <div class="img-holder">
+                            <img src="img/resources/3.jpg" alt="img">
+                        </div>
+                    </div><!-- bx-first-->
 
-		</section>
-		<!-- START - More Informations/Right Part -->
+                    <div class="bx-first">
+                        <div class="img-holder pull-left">
+                            <img src="img/resources/4.jpg" alt="img">
+                        </div>
+                        <div class="text-bx border-left-none">
+                            <h2>200+</h2>
+                            <h3>sucsessful projects</h3>
+                            <p>
+                                Since 1965, who loves or pursues or desires too obtains Attorneys cal exercise.
+                            </p>
+                        </div><!-- text-bx-->
+                    </div><!-- bx-first-->
 
-		<!-- Button Cross to close the More Informations/Right Part -->
-		<button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
+                    <div class="bx-first">
+                        <div class="text-bx">
+                            <h2>25</h2>
+                            <h3>winnig of awards</h3>
+                            <p>
+                                Since 1965, who loves or pursues or desires too obtains Attorneys cal exercise.
+                            </p>
+                        </div><!-- text-bx-->
+                        <div class="img-holder">
+                            <img src="img/resources/5.jpg" alt="img">
+                        </div>
+                    </div><!-- bx-first-->
+                </div><!-- feature-box --> 
+            </div>
+        </div>
+    </div>
+</section><!-- End Welcome -->
 
-		<!-- START - Newsletter Popup -->
-		<div id="somedialog" class="dialog">
+<!-- Start About-Section -->
+<section id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4">
+                <div class="img-holder">
+                    <img src="img/resources/lawyer.png" alt="img">
+                </div>
+            </div><!-- col -->
+            <div class="col-lg-8 col-sm-8">
+                <div class="section-title-style">
+                    <h1>about our history</h1>
+                    <p>
+                    Your employees do their jobs, your customers buy from you, and you stay ahead of the competition. But every once in a while, something changes just enough so that the things you’ve always done are no longer working become less sales decrease and your competitors cut their prices in order to attract your customers. How do you regain clarity, focus and direction when you feel like you’re no longer in control?
+                    </p>
+                    <p>
+                    Your employees do their jobs, your customers buy from you, and you stay ahead of the competition. But every you regain clarity, focus and direction when you feel like you’re no longer in control?
+                    </p>
+                </div><!-- title --> 
+                <div class="sign">
+                    <img src="img/resources/signature.png" alt="img">
+                </div><!-- sign --> 
 
-			<div class="dialog__overlay"></div>
-					
-			<div class="dialog__content">
-						
-				<div class="dialog-inner">
-							
-					<h4>Requieres de nuestros servicios?</h4>
-							
-					<p>Comparte tu correo... Y te notificaremos cuando puedas ver la gran variedad de productos y servicios <strong>que URBANISTICS ofrece!</strong></p>
+                <div class="contact-detail">
+                    <p>
+                    7 days a Week From : 8:00 am to 9:30 pm
+                    </p>
+                    <div class="phn-col">
+                        <div class="phone-icon"><i class="fa fa-phone"></i></div>
+                        <h3>Get Free Legal Consultant : <b>1800 500 4540</b></h3>
+                    </div>
+                </div><!-- contact-detail -->
+            </div><!-- col -->
+        </div>
+    </div>
+</section><!-- End About-Section -->
 
-					<!-- Newsletter Form -->
-					<div id="subscribe">
+<!-- Start practice-area -->
+<section id="practice-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-style">
+                    <div class="section-title-style">
+                        <h1>our practice <span>area</span></h1>
 
-		                <form action="php/notify-me.php" id="notifyMe" method="POST">
+                        <p>
+                        Your employees do their jobs, your customers buy from you, and you stay ahead of the competition regain clarity focus and direction  longer in control.
+                        </p>
+                    </div>
+                </div><!-- title --> 
+            </div><!-- col -->
+        </div>
 
-		                    <div class="form-group">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="single-prac-area">
+                <div class="single-featured-icon wow fadeInUp' data-wow-delay='.2s'">
+                    <img src="img/icons/drug.png" alt="img">
+                </div>
+                <div class="single-featured-text">
+                    <h5>Drug Offence law</h5>
+                    <p>Phasellus sit amet tristique ligula. Doc iaculis leo suscipit ultricies Intedum esuada fames ant infaucibus.</p>
+                </div>
+            </div><!-- single-prac-area -->
+        </div><!-- col -->
 
-		                        <div class="controls">
-		                            
-		                        	<!-- Field  -->
-		                        	<input type="text" id="mail-sub" name="email" placeholder="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField" />
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="single-prac-area">
+                <div class="single-featured-icon">
+                    <img src="img/icons/criminal-icon.png" alt="img">
+                </div>
+                <div class="single-featured-text">
+                    <h5>criminal law</h5>
+                    <p>Phasellus sit amet tristique ligula. Doc iaculis leo suscipit ultricies Intedum esuada fames ant infaucibus.</p>
+                </div>
+            </div><!-- single-prac-area -->
+        </div><!-- col -->
 
-		                        	<!-- Spinner top left during the submission -->
-		                        	<i class="fa fa-spinner opacity-0"></i>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="single-prac-area">
+                <div class="single-featured-icon">
+                    <img src="img/icons/car-icon.png" alt="img">
+                </div>
+                <div class="single-featured-text">
+                    <h5>Accident law</h5>
+                    <p>Phasellus sit amet tristique ligula. Doc iaculis leo suscipit ultricies Intedum esuada fames ant infaucibus.</p>
+                </div>
+            </div><!-- single-prac-area -->
+        </div><!-- col -->
+    </div><!-- row -->
 
-		                            <!-- Button -->
-		                            <button class="btn btn-lg submit">Notificarme</button>
+    <div class="row mrgn-offset-top">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="single-prac-area">
+                <div class="single-featured-icon">
+                    <img src="img/icons/injury.png" alt="img">
+                </div>
+                <div class="single-featured-text">
+                    <h5>personal injury law</h5>
+                    <p>Phasellus sit amet tristique ligula. Doc iaculis leo suscipit ultricies Intedum esuada fames ant infaucibus.</p>
+                </div>
+            </div><!-- single-prac-area -->
+        </div><!-- col -->
 
-		                            <div class="clear"></div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="single-prac-area">
+                <div class="single-featured-icon">
+                    <img src="img/icons/education.png" alt="img">
+                </div>
+                <div class="single-featured-text">
+                    <h5>education law</h5>
+                    <p>Phasellus sit amet tristique ligula. Doc iaculis leo suscipit ultricies Intedum esuada fames ant infaucibus.</p>
+                </div>
+            </div><!-- single-prac-area -->
+        </div><!-- col -->
 
-		                        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="single-prac-area">
+                <div class="single-featured-icon">
+                    <img src="img/icons/family.png" alt="img">
+                </div>
+                <div class="single-featured-text">
+                    <h5>family law</h5>
+                    <p>Phasellus sit amet tristique ligula. Doc iaculis leo suscipit ultricies Intedum esuada fames ant infaucibus.</p>
+                </div>
+            </div><!-- single-prac-area -->
+        </div><!-- col -->
+    </div><!-- row -->
+    </div>
+</section><!-- End practice-area -->
 
-		                    </div>
+<!-- Start quote-section -->
+<section id="quote-section">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="img-holder">
+                        <img src="img/resources/stachu.png" alt="img">
+                    </div>
+                </div><!-- col -->
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <div class="quote-form ">
+                    <div class="section-title-style">
+                        <h1>FREE CONSULTATION</h1>
+                    </div>
+                    <form action="inc/sendemail.php" class="contact-form">
+                        <p><input type="text" name="name" placeholder="Name"></p>
+                        <p><input type="text" name="email" placeholder="Email"></p>
+                        <p><input type="text" name="subject" placeholder="Subject"></p>
+                        <p><textarea name="message" placeholder="Message"></textarea></p>
+                        <button type="submit" class="contact-submit-button">
+                            <span>send request</span>
+                        </button>
+                       
+                    </form><!-- form --> 
+                    </div><!-- quote-form -->
+                </div><!-- col -->
+            </div>
+        </div>
+    </div><!-- overlay -->
+</section><!-- End quote-section -->
 
-		                </form>
+<!--Start Our Attorneys Area-->
+<section id="our-attorneys-area">
+    <div class="container">
+        <div class="row">
+            <div class="our-attorneys">
+                <div class="section-title-style text-center sec-pd-offset-btm">
+                    <h1>Our Attorneys</h1>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididtion ullamco luptate velit esse fugiat nulla pariatur. 
+                </p>
+                </div>
+                <!--Start Single Attorney-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-attorney">
+                        <div class="attorney-image-holder">
+                            <img src="img/attorneys/attorney-1.jpg" alt="">
+                            <div class="attorney-overlay">
+                                <div class="social-links">
+                                    <a href=""><i class="fa fa-facebook mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-twitter mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-google-plus mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-linkedin mysocial_style"></i></a>
+                                </div>
 
-						<!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
-						<div class="block-message">
+                            </div>
+                        </div>
+                        <div class="attorney-name text-center">
+                            <h5>John Martin</h5>
+                            <p>criminal law</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End Single Attorney-->
+                <!--Start Single Attorney-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-attorney">
+                       <div class="attorney-image-holder">
+                            <img src="img/attorneys/attorney-2.jpg" alt="">
+                            <div class="attorney-overlay">
+                                <div class="social-links">
+                                    <a href=""><i class="fa fa-facebook mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-twitter mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-google-plus mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-linkedin mysocial_style"></i></a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="attorney-name text-center">
+                            <h5>John Martin</h5>
+                            <p>divorce law</p>
+                        </div>
+                    </div>
+                </div><!--End Single Attorney-->
+                        
+                <!--Start Single Attorney-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-attorney">
+                       <div class="attorney-image-holder">
+                            <img src="img/attorneys/attorney-3.jpg" alt="">
+                            <div class="attorney-overlay">
+                                <div class="social-links">
+                                    <a href=""><i class="fa fa-facebook mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-twitter mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-google-plus mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-linkedin mysocial_style"></i></a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="attorney-name text-center">
+                            <h5>John Martin</h5>
+                            <p>divorce law</p>
+                        </div>
+                    </div>
+                </div><!--End Single Attorney-->
+                <!--Start Single Attorney-->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-attorney">
+                       <div class="attorney-image-holder">
+                            <img src="img/attorneys/attorney-4.jpg" alt="">
+                            <div class="attorney-overlay">
+                                <div class="social-links">
+                                    <a href=""><i class="fa fa-facebook mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-twitter mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-google-plus mysocial_style"></i></a>
+                                    <a href=""><i class="fa fa-linkedin mysocial_style"></i></a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="attorney-name text-center">
+                            <h5>John Martin</h5>
+                            <p>divorce law</p>
+                        </div>
+                    </div>
+                </div><!--End Single Attorney-->
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Our Attorneys Area-->
 
-							<div class="message">
 
-								<p class="notify-valid"></p>
+    
+<!-- start testimonial -->
+<section id="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="text-box clearfix">
+                    <div class="quote-icon">
+                        <img src="img/icons/quote.png" alt="img">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididtion ullamco luptate velit esse   fugiat nulla pariatur.
+                    </p>
+                    <p class="name">
+                        <span>John Smith </span> <br> ( c e o )
+                    </p>
 
-							</div>
+                </div><!-- text-box --> 
+                <div class="client-img">
+                    <img src="img/resources/client-img.png" alt="client-img">
+                </div>
+            </div><!-- col -->
 
-						</div>
+            <div class="col-md-4 col-sm-12">
+                <div class="text-box clearfix">
+                    <div class="quote-icon">
+                        <img src="img/icons/quote.png" alt="img">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididtion ullamco luptate velit esse   fugiat nulla pariatur.
+                    </p>
+                    <p class="name">
+                        <span>John Smith </span> <br> ( c e o )
+                    </p>
+                </div><!-- text-box -->
+                <div class="client-img">
+                    <img src="img/resources/client-img.png" alt="client-img">
+                </div>
+            </div><!-- col -->
 
-        			</div>
-        			<!-- /. Newsletter Form -->
+            <div class="col-md-4 col-sm-12">
+                <div class="text-box clearfix">
+                    <div class="quote-icon">
+                        <img src="img/icons/quote.png" alt="img">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididtion ullamco luptate velit esse   fugiat nulla pariatur.
+                    </p>
+                    <p class="name">
+                        <span>John Smith </span> <br> ( c e o )
+                    </p>
+                </div><!-- text-box -->
+                <div class="client-img">
+                    <img src="img/resources/client-img.png" alt="client-img">
+                </div>
+            </div><!-- col -->
+        </div>
+    </div>
+</section><!-- end testimonial -->
 
-				</div>
-				<!-- /. dialog-inner -->
+<!-- Start legal-problem-area -->
+<section id="legal-problem-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <div class="legal-problem-text">
+                    <h2>If you have any problem in your life feel free consult available</h2>
+                    <h3>24 / 7 EMERGENCY CALL : <span>1800 545 555</span></h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="get-free-consultation-button">
+                    <a href="">contact now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- end legal-problem-area -->
 
-				<!-- Button Cross to close the Newsletter Popup -->
-				<button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
+<!-- start blog -->
+<section id="blog">
+    <div class="container">
+        <div class="section-title-style text-center sec-pd-offset-btm">
+            <h1>latest blogs</h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididtion ullamco luptate velit esse fugiat nulla pariatur. 
+            </p>
+        </div><!-- title -->
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="blog-main-holder">
+                    <div class="single-blog-post">
+                        <div class="img-holder">
+                            <img src="img/blog/1.jpg" alt="img">
+                            <div class="date">
+                                <h3>08<br><span>may</span></h3>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>heading of blog</h3>
+                                <ul>
+                                    <li>Author : <span>Aliza Baith</span> </li>
+                                    <li class="pull-right">comments: <span>5</span> </li>
+                                </ul>
+                                
+                                <p>
+                                Sed ut perspiciatis unde omnis ierror sit voluptatem accusa nt ium dolorem que laudantium.
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                        </div>  
+                    </div><!-- single blog post -->
+                </div><!-- blog-main-holder -->
+            </div><!-- col -->
 
-			</div>
-			<!-- /. dialog__content -->
-						
-		</div>
-		<!-- END - Newsletter Popup -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="blog-main-holder">
+                    <div class="single-blog-post">
+                        <div class="img-holder">
+                            <img src="img/blog/2.jpg" alt="img">
+                            <div class="date">
+                                <h3>08<br><span>may</span></h3>
+                            </div>
+                        </div>
+                            <div class="blog-content">
+                                <h3>heading of blog</h3>
+                                <ul>
+                                    <li>Author : <span>Aliza Baith</span> </li>
+                                    <li class="pull-right">comments: <span>5</span> </li>
+                                </ul>
+                                
+                                <p>
+                                Sed ut perspiciatis unde omnis ierror sit voluptatem accusa nt ium dolorem que laudantium.
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                    </div><!-- single blog post -->
+                </div><!-- blog-main-holder -->
+            </div><!-- col -->
 
-		<!-- Root element of PhotoSwipe, the gallery. Must have class pswp. -->
-		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="blog-main-holder">
+                    <div class="single-blog-post">
+                        <div class="img-holder">
+                            <img src="img/blog/3.jpg" alt="img">
+                            <div class="date">
+                                <h3>08<br><span>may</span></h3>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>heading of blog</h3>
+                                <ul>
+                                    <li>Author : <span>Aliza Baith</span> </li>
+                                    <li class="pull-right">comments: <span>5</span> </li>
+                                </ul>
+                                
+                                <p>
+                                Sed ut perspiciatis unde omnis ierror sit voluptatem accusa nt ium dolorem que laudantium.
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                        </div>
+                    </div><!-- single blog post -->
+                </div><!-- blog-main-holder -->
+            </div><!-- col -->
+        </div>
+    </div>
+</section><!-- end blog -->
 
-		    <!-- Background of PhotoSwipe. 
-	        	It's a separate element as animating opacity is faster than rgba(). -->
-		    <div class="pswp__bg"></div>
+<!-- start clients -->
+<section id="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <div class="client-img-holder">
+                            <img src="img/clients/1.jpg" alt="client">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-img-holder">
+                            <img src="img/clients/2.jpg" alt="client">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-img-holder">
+                            <img src="img/clients/3.jpg" alt="client">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-img-holder">
+                            <img src="img/clients/4.jpg" alt="client">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-img-holder">
+                            <img src="img/clients/2.jpg" alt="client">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-img-holder">
+                            <img src="img/clients/1.jpg" alt="client">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- end clients -->
 
-		    <!-- Slides wrapper with overflow:hidden. -->
-		    <div class="pswp__scroll-wrap">
 
-		        <!-- Container that holds slides. 
-		            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-		            Don't modify these 3 pswp__item elements, data is added later on. -->
-		        <div class="pswp__container">
-		            <div class="pswp__item"></div>
-		            <div class="pswp__item"></div>
-		            <div class="pswp__item"></div>
-		        </div>
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="widget">
 
-		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-		        <div class="pswp__ui pswp__ui--hidden">
+                    <h3><img src="img/resources/logo-footer.png" alt=""></h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis no strud.
+                    </p>
+                    <a class="readmore" href="#">Read More</a>
+                    <div class="social-links">
+                        <a href="#"> <i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>
+                        <a href="#"> <i class="fa fa-linkedin"></i></a>
+                    </div><!-- social-link -->
+                </div>  
+            </div>
 
-		            <div class="pswp__top-bar">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="widget padd-offset">
+                    <h3>quick links</h3>
+                    <ul class="quick-links">
+                        <li><a href="#">Family and Child Law</a></li>
+                        <li><a href="#">Criminal Law</a></li>
+                        <li><a href="#">Insurance Law</a></li>
+                        <li><a href="#">Education Law</a></li>
+                        <li><a href="#">Real estate Law</a></li>
+                        <li><a href="#">download broucher</a></li>
+                    </ul>
+                </div>
+            </div>
 
-		                <!--  Controls are self-explanatory. Order can be changed. -->
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="widget">
+                    <h3>quick links</h3>
+                    <ul class="quick-links">
+                        <li><a href="#">Laptop Repair</a></li>
+                        <li><a href="#">Game Console</a></li>
+                        <li><a href="#">Tablet Repair</a></li>
+                        <li><a href="#">Data Recovery</a></li>
+                        <li><a href="#">PC & MAC Computers</a></li>
+                        <li><a href="#">Smart phone Repair</a></li>
+                    </ul>
+                </div>
+            </div>
 
-		                <div class="pswp__counter"></div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="widget padd-offset-1">
+                    <h3>get in touch</h3>
+                    <div class="textwidget">
+                        <div class="textwidget-icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="info-detail">
+                            <p>
+                                Lorance Road 542B, marley Town 5255 MT, Wordwide Country
+                            </p>  
+                        </div>   
+                    </div>
+                    <div class="textwidget">
+                        <div class="textwidget-icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="info-detail">
+                            <p>
+                                1800-453-1546
+                            </p>  
+                        </div>   
+                    </div>
 
-		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <div class="textwidget">
+                        <div class="textwidget-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="info-detail">
+                            <p>
+                                Themelab15@.com
+                            </p>  
+                        </div>   
+                    </div>
 
-		                <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <div class="textwidget">
+                        <div class="textwidget-icon">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <div class="info-detail">
+                            <p>
+                                Monday - Friday: 9:00AM - 5:00PM
+                                Saturday - Sunday: Closed
+                            </p>  
+                        </div>   
+                    </div>
 
-		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                 </div>  
+            </div>
 
-		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        </div>
+    </div>
+</footer><!-- footer -->
 
-		                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-		                <!-- element will get class pswp__preloader--active when preloader is running -->
-		                <div class="pswp__preloader">
-		                    <div class="pswp__preloader__icn">
-		                      <div class="pswp__preloader__cut">
-		                        <div class="pswp__preloader__donut"></div>
-		                      </div>
-		                    </div>
-		                </div>
+<!-- start footer-bottom -->
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="create-by">
+                    <p>create by: themelab15</p>
+                </div><!-- create-by -->
+                <div class="copyright">
+                    <p>
+                        Copyright © Master Law 2016. All rights reserved.
+                    </p>
+                </div><!-- copyright -->
+            </div>
+        </div>
+    </div>
+</div><!-- end footer-bottom -->    
+        
 
-		            </div>
 
-		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-		                <div class="pswp__share-tooltip"></div> 
-		            </div>
 
-		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-		            </button>
-
-		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-		            </button>
-
-		            <div class="pswp__caption">
-		                <div class="pswp__caption__center"></div>
-		            </div>
-
-		        </div>
-
-		    </div>
-
-		</div>
-		<!-- /. Root element of PhotoSwipe. Must have class pswp. -->
-
-	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
-    <!-- ********** Resources jQuery ********** -->
-    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
 	
-	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easings.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-
-	<!-- Accelerated JavaScript animation JS file -->
-	<script src="js/velocity.min.js"></script> 
-
-	<!-- Accelerated JavaScript animation UI JS file -->
-	<script src="js/velocity.ui.min.js"></script>  
-
-	<!-- Newsletter plugin -->
-	<script src="js/notifyMe.js"></script>
-
-	<!-- Contact form plugin -->
-	<script src="js/contact-me.js"></script>
-
-	<!-- Slideshow/Image plugin -->
-	<script src="js/vegas.js"></script>
-
-	<!-- Scroll plugin -->
-	<script src="js/jquery.mousewheel.js"></script>
-
-	<!-- Custom Scrollbar plugin -->
-	<script src="js/jquery.mCustomScrollbar.js"></script>
-
-	<!-- Popup Newsletter Form -->
-	<script src="js/classie.js"></script>
-	<script src="js/dialogFx.js"></script>
-
-	<!-- PhotoSwipe Core JS file -->
-	<script src="js/photoswipe.js"></script> 
-
-	<!-- PhotoSwipe UI JS file -->
-	<script src="js/photoswipe-ui-default.js"></script>
-
-	<!-- Flat Surface Shader colors -->
-	<script>
-	    var ambient_value = '#1F222E'; // ambient color
-	    var diffuse_value = '#2B2D35'; // diffuse color
-	</script> 
-
-	<!-- Flat Surface Shader effect -->
-	<script src="js/fss.js"></script> 
-	<script src="js/custom-fss.js"></script>
-
-	<!-- Main JS File -->
-	<script src="js/main.js"></script>
+	<script src="js/jquery.min.js"></script> <!-- jQuery JS -->
+	<script src="js/bootstrap.min.js"></script> <!-- BootStrap JS -->
+	<script src="js/wow.js"></script> <!-- WOW JS -->
+	<script src="js/validate.js"></script> <!-- Form Validator JS -->
+	<script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+	<script src="js/owl.carousel.min.js"></script> <!-- OWL Carousle JS -->
+	<script src="revolution/js/jquery.themepunch.tools.min.js"></script> <!-- Revolution Slider Tools -->
+	<script src="revolution/js/jquery.themepunch.revolution.min.js"></script> <!-- Revolution Slider -->
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script src="js/custom.js"></script> <!-- Custom JS -->
 	
-	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
-
-	</body>
-
+</body>
 </html>
