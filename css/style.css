@@ -194,7 +194,7 @@ h4 {
 **/
 
 #topbar {
-    background: #B89B5E;
+    background: #68a64f;
     color: #999ea3;
     border-bottom: 1px solid rgb(164, 136, 78);
 }
@@ -241,10 +241,10 @@ h4 {
 ============================== */
 #header {
     padding: 6px 0;
-    background-color: #B89B5E;
+    background-color: #fff;
 }
 #header.stricky-fixed {
-  background: #B89B5E;
+  background: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -336,7 +336,7 @@ h4 {
   display: block;
   font-family: "Open Sans",sans-serif;
   font-size: 14px;
-  color: #FFF;
+  color: #68a64f;
   line-height: 29px;
   border-right: none;
   font-weight: bold;
@@ -346,7 +346,7 @@ h4 {
 /* dropdown menu styles */
 .mainmenu-navigation .navigation> .nav-footer ul > li.active > a,
 .mainmenu-navigation .navigation> .nav-footer ul > li:hover > a {
-  color: #FFF;
+  color: #68a64f;
 }
 .mainmenu-navigation .navigation> .nav-footer ul > li {
   position: relative;
@@ -585,12 +585,12 @@ h4 {
   letter-spacing: -.005em !important;
   display: inline-block;
   line-height: 51px;
-  background: #B89B5E;
+  background: #68a64f;
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold !important;
   text-transform: uppercase;
   vertical-align: middle;
-  border: 1px solid #B89B5E;
+  border: 1px solid #68a64f;
   border-radius: 4px;
   padding: 10px 36px;
   -webkit-transition: background .4s ease, color .4s ease !important;
@@ -622,7 +622,7 @@ h4 {
   content: "";
   width: 150px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -630,7 +630,7 @@ h4 {
   margin: 0;
 }
 #welcome-section .section-title-style span{
-  color: #c59651;
+  color: #68a64f;
   font-weight: bold;
 }
 #welcome-section p{
@@ -673,11 +673,11 @@ h4 {
   float: left;
   padding-left: 24px;
   height: 179px;
-  border-left: 3px solid #c59651;
+  border-left: 3px solid #68a64f;
 }
 #welcome-section .featured-bx .bx-first .text-bx h2{
   font-size: 40px;
-  color: #c59651;
+  color: #68a64f;
   text-transform: uppercase;
   margin: 0;
   text-align: left;
@@ -724,7 +724,7 @@ h4 {
 }
 #about-section .section-title-style h1{
   font-size: 30px;
-  color: #c59651;
+  color: #68a64f;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0;
@@ -738,7 +738,7 @@ h4 {
   content: "";
   width: 150px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -774,7 +774,7 @@ h4 {
 }
 #about-section .contact-detail .phn-col{
   width: 100%;
-  border: 3px solid #c59651;
+  border: 3px solid #68a64f;
   height: 80px;
   margin-top: 30px;
 }
@@ -783,7 +783,7 @@ h4 {
   height: 75px;
   margin-right: 50px;
   float: left;
-  background-color: #c59651;
+  background-color: #68a64f;
   color: #FFF;
   text-align: center;
   font-size: 40px;
@@ -835,7 +835,7 @@ h4 {
   content: "";
   width: 150px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -843,7 +843,7 @@ h4 {
   margin: 0;
 }
 #practice-area .section-title-style span{
-  color: #c59651;
+  color: #68a64f;
   font-weight: bold;
 }
 #practice-area .section-title-style p{
@@ -920,7 +920,7 @@ h4 {
   content: "";
   width: 50px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -992,7 +992,7 @@ h4 {
   border: none;
 }
 .quote-form .contact-submit-button:hover {
-  background: #c59651;
+  background: #68a64f;
   color: #FFF;
   transition:all .3s ease-out;
 }
@@ -1055,17 +1055,17 @@ h4 {
   width: 30px;
 }
 .social-links i.mysocial_style:hover{
-  background:#c59651;
-  border:1px solid #c59651;
+  background:#68a64f;
+  border:1px solid #68a64f;
 }
 .attorney-name {
-  border: 4px solid #c59651;
+  border: 4px solid #68a64f;
   padding-bottom: 12px;
   padding-top: 17px;
   transition: all .5s ease;
 }
 .single-attorney:hover .attorney-name {
-  background: #c59651;
+  background: #68a64f;
 }
 .single-attorney:hover .attorney-name h5 {
   color: #fff;
@@ -1142,7 +1142,7 @@ h4 {
 #testimonials .text-box .quote-icon{
   width: 44px;
   height: 47px;
-  background-color: #c59651;
+  background-color: #68a64f;
   margin: auto;
   position: relative;
   top: -20px;
@@ -1196,7 +1196,7 @@ h4 {
 }
 /*---- start about us section ----*/
 #legal-problem-area {
-    background: #BF9E58 none repeat scroll 0 0;
+    background: #68a64f none repeat scroll 0 0;
     padding: 40px 0;
 }
 .legal-problem-text h2 {
@@ -1242,7 +1242,7 @@ h4 {
   width: 70px;
   padding: 15px;
   float: left;
-  background-color: #b4894a;
+  background-color: #68a64f;
   margin: 10px 0 0 10px;
   position: absolute;
   bottom: 20px;
@@ -1288,7 +1288,7 @@ h4 {
   float: right;
 }
 #blog .single-blog-post .blog-content > ul li span{
-  color: #c59651;
+  color: #68a64f;
 }
 #blog .single-blog-post .blog-content h3{
   margin: 0;
@@ -1312,7 +1312,7 @@ h4 {
 #blog .single-blog-post a.readmore{
   padding: 5px 0;
   font-size: 15px;
-  color: #c59651;
+  color: #68a64f;
   text-align: center;
   border-radius: 4px;
   margin-top: 10px;
@@ -1414,7 +1414,7 @@ footer{
 footer .widget{
 }
 footer a.readmore{
-  color: #c59651;
+  color: #68a64f;
   margin-top: 10px;
   display: table;
 }
@@ -1500,7 +1500,7 @@ footer .social-links a {
   transition: all 500ms ease-out 0s;
 }
 footer .social-links a:hover {
-  background: #c59651;
+  background: #68a64f;
   transition: all 500ms ease-out 0s;
 }
 
@@ -1576,7 +1576,7 @@ padding-top: 100px;
   content: "";
   width: 100px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -1612,7 +1612,7 @@ padding-top: 100px;
   content: "";
   width: 150px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -1663,8 +1663,8 @@ padding-top: 100px;
   width: 30px;
 }
 #team-page-wrap .social-links i.mysocial_style:hover{
-  background:#c59651;
-  border:1px solid #c59651;
+  background:#68a64f;
+  border:1px solid #68a64f;
 }
 #team-page-wrap .attorney-name {
   background-color: #FFF;
@@ -1677,11 +1677,11 @@ padding-top: 100px;
   color: #000;
 }
 #team-page-wrap .single-attorney .attorney-name span {
-  color: #c59651;
+  color: #68a64f;
   text-transform: capitalize;
 }
 #team-page-wrap .single-attorney:hover .attorney-name span {
-  color: #c59651;
+  color: #68a64f;
   text-transform: capitalize;
 }
 #team-page-wrap .attorney-name p {
@@ -1756,10 +1756,10 @@ padding-top: 100px;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #c59651;
+  background-color: #68a64f;
 }
 #attorney-profile-page-wrap hr{
-  border-top: 6px solid #c59651;
+  border-top: 6px solid #68a64f;
   margin: 0;
   padding: 0;
 }
@@ -1793,7 +1793,7 @@ padding-top: 100px;
   width: 40px;
   float: left;
   font-size: 18px;
-  color: #c59651;
+  color: #68a64f;
   margin-right: 14px;
   height: 40px;
   border-radius: 50px;
@@ -1865,7 +1865,7 @@ padding-top: 100px;
   margin: 0;
   padding: 0 0 10px 0;
   font-size: 16px;
-  color: #c59651;
+  color: #68a64f;
   text-align: left;
   font-weight: bold;
   text-transform: uppercase;
@@ -1910,7 +1910,7 @@ padding-top: 100px;
   background-image:none;
 }
 .progress-bar-primary {
-  background-color: #b89b5e;
+  background-color: #68a64f;
   width: 62%;
 }
 .progress-bar {
@@ -2014,7 +2014,7 @@ padding-top: 100px;
 }
 
 .leave-comment-form button[type="submit"]:hover {
-  background: #B89B5E;
+  background: #68a64f;
   color: #1f1f1f;
 }
 
@@ -2084,7 +2084,7 @@ padding-top: 100px;
   content: "";
   width: 50px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -2155,7 +2155,7 @@ padding-top: 100px;
 }
 .single-sidebar-widget .special-links li:hover a,
 .single-sidebar-widget .special-links li.active a {
-  background: #c59651;
+  background: #68a64f;
   color: #FFF;
 }
 .single-sidebar-widget .special-links li:hover a:after,
@@ -2194,7 +2194,7 @@ padding-top: 100px;
   content: "";
   width: 50px;
   height: 2px;
-  background: #c59651;
+  background: #68a64f;
   display: block;
   position: relative;
   top: 45px;
@@ -2277,7 +2277,7 @@ padding-top: 100px;
   margin: 0 10px 0 10px;
 }
 .post-resource ul li span{
-  color: #c59651;
+  color: #68a64f;
 }
 .post-resource ul li:last-child{
   border-right: none !important;
@@ -2298,7 +2298,7 @@ padding-top: 100px;
   text-align: left;
 }
 .single-blog-read-more a {
-  color: #c59651;
+  color: #68a64f;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
@@ -2324,9 +2324,9 @@ padding-top: 100px;
 }
 .post-pagination ul li.active a,
 .post-pagination ul li:hover a {
-  background:#c59651;
+  background:#68a64f;
   color: #fff;
-  border: 1px solid #c59651;
+  border: 1px solid #68a64f;
 }
 .post-pagination .btn-nxt{
   background-color: #000;
@@ -2393,7 +2393,7 @@ padding-top: 100px;
 }
 .sidebar-widget h3 {
   color: #FFF;
-  background-color: #c59651;
+  background-color: #68a64f;
   font-weight: 700;
   letter-spacing: .05em;
   margin: 0;
@@ -2512,8 +2512,8 @@ padding-top: 100px;
 }
 #blog-post .sidebar-widget .tag-cloud a:hover {
   color: #fff;
-  background: #c59651;
-  border: 1px solid #c59651;
+  background: #68a64f;
+  border: 1px solid #68a64f;
   border-radius: 4px;
 }
 /* start blog-detail css */
@@ -2631,7 +2631,7 @@ padding-top: 100px;
   font-size: 20px;
 }
 .blog-detail .shear_area .shear .social_button ul li a:hover{
-  color:#c59651;
+  color:#68a64f;
 }
 .blog-detail .administrator {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -2709,7 +2709,7 @@ padding-top: 100px;
   padding-bottom: 50px;
 }
 .blog-detail .comments_area .single_comment .comment_text p a{
-  color: #c59651;
+  color: #68a64f;
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 5px;
@@ -2753,7 +2753,7 @@ padding-top: 100px;
   height: 186px;
 }
 .blog-detail .comment-box a.submit-now {
-  background-color: #c59651;
+  background-color: #68a64f;
   color: #fff;
   float: left;
   margin: 25px 0 0px;
@@ -2912,7 +2912,7 @@ padding-top: 100px;
   font-weight: bold;
 }
 #page-404-content h1 span{
-  color: #c59651;
+  color: #68a64f;
 }
 #page-404-content p{
   color: #333;
@@ -2965,13 +2965,13 @@ padding-top: 100px;
 #testimonials-page .text-box {
   display: table-cell !important;
   vertical-align: middle;
-  border-bottom: 1px solid #c59651;
+  border-bottom: 1px solid #68a64f;
   padding-bottom: 30px;
   background-color: #f7f7f7;
 }
 #testimonials-page .text-box:before{
   content: "";
-  background-color: #c59651;
+  background-color: #68a64f;
   height: 2px;
   width: 90%;
 }
@@ -2987,7 +2987,7 @@ padding-top: 100px;
 #testimonials-page .text-box .quote-icon{
   width: 44px;
   height: 47px;
-  background-color: #c59651;
+  background-color: #68a64f;
   margin-left: 20px;
   position: relative;
   top: -20px;
@@ -3070,7 +3070,7 @@ padding-top: 100px;
   font-size: 16px;
 }
 .contact-submit-button {
-  background-color: #c59651;
+  background-color: #68a64f;
   color: #fff;
   float: left;
   margin: 25px 0 0px;
@@ -3175,7 +3175,7 @@ padding-top: 100px;
 .general-question .panel-group .panel-default .panel-title a.collapsed:after {
   content: "\f107";
   font-family: fontawesome;
-  background: #c59651 none repeat scroll 0 0;
+  background: #68a64f none repeat scroll 0 0;
   border-left: 1px solid #e9e9e9;
   color: #FFF;
   font-size: 24px;
