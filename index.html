@@ -113,13 +113,14 @@
 
 <!-- slider -->
 <div class="slider-margin-top">
-<div class="master-slider ms-skin-default" style="margin-top: -100px;" id="masterslider">
+<div class="master-slider ms-skin-default" id="masterslider">
 
     <!-- new slide -->
     <div class="ms-slide slide-1" data-delay="5">
     
         <!-- slide background -->
-        <img src="js/masterslider/Slider1.jpeg"  style="opacity: .7; margin-top: -100px;" alt="" />     
+        
+		<img style="opacity: .7;"src="js/masterslider/blank.gif" data-src="js/masterslider/images/Slider1.jpeg" alt="lorem ipsum dolor sit"/>  		
 				
 		<h2 class="ms-layer white font-weight7 hps-title4"
 			style="left: 800px; top: 300px; font-size: 30px; padding-left: 350px;
@@ -624,7 +625,8 @@
          layout:'fullwidth',
          loop:true,
          preload:0,
-         autoplay:true
+         autoplay:true,
+		 heightLimit:false
     });
 </script>
 
