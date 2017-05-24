@@ -1,0 +1,20 @@
+.rlAccordion > h6 {
+  margin: 0 auto;
+  padding: 25px 0px;
+  text-decoration: none;
+  border-top: 1px solid #eee;
+}
+.rlAccordion > h6:hover {
+	cursor: pointer;
+	color: #0090ff;
+}
+.rlAccordion > h6.active {
+	color: #0090ff;
+}
+.rlAccordion > h6 > span {
+  float: right;
+}
+.rlAccordion > h6 + div {
+  display: none;
+  padding: 0px 0px 40px 0px;
+}

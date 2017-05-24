@@ -1,0 +1,137 @@
+.panel ul{
+	list-style: none;
+}
+.panel ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 25px 30px 25px 0px;
+	font-size: 16px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 40em){
+.panel ul li{
+	display: block;
+/*	padding: 5px 0;*/
+	text-align: left;
+}
+.tag{display: none;}
+}
+
+header.oneheader {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  height: 120px;
+  z-index: 9998;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+header.oneheader .logo {
+	float: left;
+	margin-top: 72px;
+}
+header.oneheader.small {
+    height: 70px;
+}
+header.oneheader.small .logo {
+	margin-top: 10px;
+}
+header.oneheader.small #nav-toggle {
+    top: 9px;
+}
+header.oneheader.small .panel {
+    top: 70px;
+}
+
+.panel {
+  position: absolute;
+  width: 100%;
+  border: 0px;
+  padding: 0;
+  border-radius: 0px;
+  top: 61px;
+  display: none;
+  z-index: 9997;
+  overflow: scroll;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  -ms-overflow-style: none;
+  overflow:hidden;
+  background: #fff;
+  box-shadow: none;
+
+}
+
+.panel a {
+	color: #727272;
+	font-weight: 600;
+}
+
+.mask {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 9996;
+  position: fixed;
+  top: 0;
+  opacity: 0
+}
+
+#nav-toggle {
+  width: 30px;
+  height: 40px;
+  display: block;
+  background: none;
+  position: absolute;
+  top: 61px;
+  right: 0px;
+  transition: all 0.3s ease;
+  z-index: 9998;
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 2px;
+  width: 27px;
+  background: #1d2025;
+  position: absolute;
+  top: 27px;
+  right: 0px;
+  display: block;
+  content: ''
+}
+
+#nav-toggle span:before { top: -8px }
+
+#nav-toggle span:after {
+  bottom: -8px;
+  top: 8px
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after { transition: all 500ms ease-in-out }
+
+#nav-toggle.active span { background-color: transparent }
+
+#nav-toggle.active span:before,
+#nav-toggle.active span:after { top: 0 }
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg)
+}
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg)
+}
+
+#nav-toggle:hover { opacity: 0.5; cursor: pointer; }

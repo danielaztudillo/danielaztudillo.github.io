@@ -140,7 +140,7 @@
 /* line 29, ../sass/screen.scss */
 .header-section .logo {
   display: inline-block;
-  margin-top: 24px;
+  margin-top: 18px;
 }
 /* line 33, ../sass/screen.scss */
 .header-section .row {
@@ -693,7 +693,7 @@ box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.07);
   float: left;
 }
 
-@media only screen and (min-width: 1069px) {
+@media only screen and (min-width: 1001px) {
   /* line 352, ../sass/screen.scss */
   .header-section {
     top: 0px;
@@ -1072,7 +1072,7 @@ box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.07);
 	}
 	
 }
-@media only screen and (max-width: 1065px) {
+@media only screen and (max-width: 1000px) {
 	
   /* line 720, ../sass/screen.scss */
   .header-section ul li.cart-parent .cart-box {
@@ -1140,7 +1140,6 @@ box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.07);
   /* line 773, ../sass/screen.scss */
   .header-section .logo {
     padding-left: 10px;
-	    font-size: 30px;
   }
   /* line 776, ../sass/screen.scss */
   .header-section #menu {
@@ -1413,13 +1412,13 @@ box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.07);
     top: 7px;
   }
 }
-@media only screen and (min-width: 1065px) {
+@media only screen and (min-width: 1001px) {
   /* line 1018, ../sass/screen.scss */
   #menu {
     display: block;
   }
 }
-@media only screen and (max-width: 1065px) {
+@media only screen and (max-width: 1000px) {
   /* line 1024, ../sass/screen.scss */
   .header-section .col-sm-10, .header-section .col-sm-2 {
     width: auto;

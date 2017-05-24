@@ -1,0 +1,242 @@
+.slidingmenu {
+    background: #fff;
+    width: 410px;
+    height: 100%;
+    padding: 50px;
+    position: fixed;
+    z-index: 999;
+    -webkit-box-shadow: 2px 0 5px 0 rgba(0,0,0,0.1);
+    box-shadow: 2px 0 5px 0 rgba(0,0,0,0.1);
+    left: -340px;
+	color: #9a9a9a;
+	font-family: 'Lora', serif;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.slidingmenu:hover,.slidingmenu:focus {
+    transform: translate3d(340px,0,0);
+    animation-timing-function: 1s ease-in;
+}
+
+.slidingmenu:hover, .slidingmenu:active, .slidingmenu:focus {
+	outline: none;
+    border: 0;
+}
+
+.slidingmenu .title {
+    top: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: rotate(270deg);
+    right: 9px;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+	color: #aaa;
+    font-size: 16px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.slidingmenu:hover .title {
+	color: #eee;
+}
+.slidingmenu .slidenav {
+    position: absolute;
+    top: 18%;
+/*    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+    font-weight: 100;
+}
+.slidingmenu .slidenav li {
+	padding: 0px 0px;
+    list-style-type: none;
+}
+.slidingmenu .slidenav li a {
+	color: #1d2025;
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+    display: block;
+    text-decoration: none;
+	letter-spacing: 1px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.slidingmenu .slidenav li a:hover {
+    color: #0090ff;
+	background: none;
+}
+.slidingmenu .slidenav li a i {
+	float: left;
+	font-size: 9px;
+	color: #aaa;
+	margin-right: 10px;
+	margin-top: 7px;
+	transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.slidingmenu .slidenav li a:hover i {
+	color: #0090ff;
+	margin-left: 3px;
+	margin-right: 7px;
+}
+
+.slidingmenu .contactinfo {
+	position: absolute;
+	top: 61%;
+	left: 0;
+	padding: 50px 100px 50px 50px;
+}
+.slidingmenu .contactinfo .social {
+	float: left;
+	width: 100%;
+}
+.slidingmenu .contactinfo .social i {
+	color: #0090ff;
+	font-size: 14px;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #0090ff;
+	transition: all 0.3s ease;
+}
+.slidingmenu .contactinfo .social i:hover {
+	color: #fff;
+	background: #0090ff;
+	border: 1px solid #0090ff;
+}
+.slidingmenu .contactinfo .address {
+	float: left;
+	width: 100%;
+	margin-top: 12%;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1169px){
+.slidingmenu {
+    width: 390px;
+    left: -340px;
+}
+.slidingmenu .title {
+    right: 0px;
+}
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 990px){
+
+.slidrmtop {
+	float: left;
+	width: 100%;
+	height: 58px;
+}
+
+.slidingmenu {
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    top: -340px;
+	left: 0px;
+}
+.slidingmenu:hover,.slidingmenu:focus {
+    transform: translate3d(0,340px,0);
+    animation-timing-function: 1s ease-in;
+}
+
+.slidingmenu .slidenav {
+    position: absolute;
+    top: 27%;
+}
+.slidingmenu .slidenav li {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.slidingmenu .contactinfo {
+	width: 100%;
+	top: 35%;
+	left: 0;
+	padding: 50px 0px 50px 30px;
+}
+.slidingmenu .contactinfo .social {
+	float: left;
+	width: 40%;
+}
+.slidingmenu .contactinfo .address {
+	width: 60%;
+	margin-top: 0%;
+}
+
+.slidingmenu .title {
+    position: absolute;
+    top: 357px;
+	text-align: center;
+	width: 100%;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    transform: rotate(0deg);
+    right: 0px;
+}
+
+}
+
+@media only screen and (max-width: 639px){
+
+.slidrmtop {
+	float: left;
+	width: 100%;
+	height: 58px;
+}
+
+.slidingmenu {
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    top: -390px;
+	left: 0px;
+}
+.slidingmenu:hover,.slidingmenu:focus {
+    transform: translate3d(0,390px,0);
+    animation-timing-function: 1s ease-in;
+}
+
+.slidingmenu .slidenav {
+    position: absolute;
+    top: 20%;
+}
+.slidingmenu .slidenav li {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.slidingmenu .contactinfo {
+	width: 100%;
+	top: 35%;
+	left: 0;
+	padding: 50px 0px 50px 20px;
+}
+.slidingmenu .contactinfo .social {
+	float: left;
+	width: 40%;
+}
+.slidingmenu .contactinfo .address {
+	width: 60%;
+	margin-top: 0%;
+}
+
+.slidingmenu .title {
+    position: absolute;
+    top: 407px;
+	text-align: center;
+	width: 100%;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    transform: rotate(0deg);
+    right: 0px;
+}
+
+}

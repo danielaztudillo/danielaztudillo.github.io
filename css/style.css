@@ -84,6 +84,7 @@ Version:      1.0
 	font-family: 'Over the Rainbow', cursive;
 	font-size:45px;
 	color:#fff;
+	white-space:nowrap;
 }
 .menu-less {
 	width: 90%;
@@ -2358,7 +2359,7 @@ Version:      1.0
 }
 .background-image55 {
 	padding: 180px 0px 180px 0px;
-	background: #f3f3f3 url(../images/bg-img72.jpg) no-repeat center bottom;
+	//background: #f3f3f3 url(../images/bg-img72.jpg) no-repeat center bottom;
 }
 .background-image56 {
 	padding: 180px 0 0px 0;
@@ -7762,8 +7763,8 @@ div.bhoechie-tab2 div.bhoechie-tab-content2:not(.active){
     font-size: 300%;
     margin-top: 0.4em;
     font-weight: bold;
-}
-*/
+}*/
+
 .time_circles > div {
     position: absolute;
     text-align: center;
@@ -7778,17 +7779,17 @@ div.bhoechie-tab2 div.bhoechie-tab-content2:not(.active){
     padding: 0px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 .time_circles > div > span {
     display: block;
     width: 100%;
     text-align: center;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 300%;
     margin-top: -58px;
     font-weight: 400;
-	color: #0090ff;
+	color: #8a6d3b;
 }
 
 

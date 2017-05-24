@@ -1,0 +1,107 @@
+
+@media only screen and (min-width: 1001px){
+	.one-page-has-left{
+		padding-left: 200px;
+		position: relative;
+		.header-section{
+			position: fixed ;
+			border:none;
+			left:0px;
+			top:0px !important;
+			width: 200px;
+			height: 100%;
+			overflow: auto;
+			z-index: 99999;
+			background:#fff !important;
+			.col-sm-2,.col-sm-10{
+				float: none;
+				width: auto;
+			}
+			ul{
+				padding:0px 0 0px;
+				list-style:none;
+				float: none;
+				li{
+					float: none;
+					a{
+						color:#101010;
+						padding:10px 0px;
+						display: block;
+					}
+					&.active{
+						> a{
+							color:#ecae3d;
+						}
+					}
+					&.mega-menu{
+						ul{
+							max-height: none;
+							opacity: 1;
+							li{
+								float: none;
+								width: 100%;
+								padding:0 0 0 15px;
+								a{
+									padding:5px 0px;
+								}
+							}
+						}
+						ul{
+							max-height: 0px;
+							overflow: hidden;
+						}
+						&:hover{
+
+							> ul{
+								max-height: 1000px;
+							}
+						}
+					}
+					ul{
+						max-height: 0px;
+						overflow: hidden;
+					}
+					&:hover{
+
+						> ul{
+							max-height: 1000px;
+						}
+					}
+				}
+
+				ul{
+					position: relative;
+					top:0px !important;
+					left:auto !important;
+					right: auto !important;
+					margin:0px;
+					max-height: none;
+					opacity: 1;
+					width: 100% !important;
+					li{
+						border:none;
+						padding-left: 15px;
+					}
+
+				}
+			}
+			.logo{
+				padding:30px 0px 0;
+				display: block;
+			}
+		}
+		.main-nav .nav.top-nav{
+			float: none;
+			li{
+				a{
+					padding-right: 20px;
+				}
+			}
+		}
+		#menu{
+			float: none;
+		}
+
+	}
+
+}
