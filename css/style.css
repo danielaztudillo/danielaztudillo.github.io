@@ -85,6 +85,7 @@ Version:      1.0
 	font-size:45px;
 	color:#fff;
 	white-space:nowrap;
+	    padding-top: 5px;
 }
 .menu-less {
 	width: 90%;
