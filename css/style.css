@@ -616,7 +616,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #welcome-section h1:before {
   content: "";
@@ -654,7 +654,7 @@ h4 {
   padding: 0 0 10px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #welcome-section .featured-bx{
   width: 100%;
@@ -684,7 +684,7 @@ h4 {
   padding: 0 0 10px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Roboto Slab",serif;
+  font-family: Calibri,"Roboto Slab",serif;
 }
 #welcome-section .featured-bx .bx-first .text-bx p{
   padding: 5px 0 0 0;
@@ -699,7 +699,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #welcome-section .featured-bx .img-holder{
   float: right;
@@ -732,7 +732,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #about-section .section-title-style h1:before {
   content: "";
@@ -754,7 +754,7 @@ h4 {
   width: 100%;
   text-align: left;
   letter-spacing: 0.3px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #about-section .sign{
   float: left;
@@ -770,7 +770,7 @@ h4 {
   font-size: 20px;
   color: #FFF; 
   text-align: right;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #about-section .contact-detail .phn-col{
   width: 100%;
@@ -829,7 +829,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #practice-area .section-title-style h1:before {
   content: "";
@@ -866,7 +866,7 @@ h4 {
 }
 .single-featured-text h5 {
   color: #3e3e3e;
-  font-family: "Raleway",sans-serif;
+  font-family: Calibri,"Raleway",sans-serif;
   font-size: 14px;
   font-weight: 700;
   padding-bottom: 10px;
@@ -914,7 +914,7 @@ h4 {
   text-align: left;
   padding: 0 0 20px 0;
   letter-spacing: 1px;
-  font-family: "Raleway",sans-serif;
+  font-family: Calibri,"Raleway",sans-serif;
 }
 .quote-form .section-title-style h1:before {
   content: "";
@@ -945,7 +945,7 @@ h4 {
   width: 100%;
   color: #FFF;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
   outline:none;
   -webkit-transition: all .3s ease;
           transition: all .3s ease;
@@ -988,7 +988,7 @@ h4 {
   padding: 10px 20px;
   display: inline-block;
   font-weight: 400;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
   border: none;
 }
 .quote-form .contact-submit-button:hover {
@@ -1013,7 +1013,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Raleway",sans-serif;
+  font-family: Calibri,"Raleway",sans-serif;
 }
 .attorney-image-holder{
   position:relative;
@@ -1078,12 +1078,12 @@ h4 {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: Calibri,'Open Sans', sans-serif; 
   transition: all .5s ease;
 }
 .attorney-name p {
   color: #3b3946;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
   font-size: 11px;
   margin: 0;
   text-transform: uppercase;
@@ -1111,7 +1111,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   text-align: center;
-  font-family: "Raleway",sans-serif;
+  font-family: Calibri,"Raleway",sans-serif;
 }
 #testimonials .section-title-style h1:before {
   display: none;
@@ -1156,7 +1156,7 @@ h4 {
   padding: 0;
   line-height: 30px;
   text-align: center;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
   position: relative;
 }
 #testimonials .text-box p.name {
@@ -1207,7 +1207,7 @@ h4 {
 }
 .legal-problem-text h3 {
   color: #FFF;
-  font-family: "Roboto Slab",serif;
+  font-family: Calibri,"Roboto Slab",serif;
   font-size: 30px;
   font-weight: bold;
   text-align: left;
@@ -1255,7 +1255,7 @@ h4 {
   font-weight: bold;
   text-align: center;
   line-height: 20px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 #blog .single-blog-post .date span{
   font-weight: normal;
@@ -1299,7 +1299,7 @@ h4 {
   color: #000;
   text-align: left;
   letter-spacing: 1px;
-  font-family: "Raleway",sans-serif;
+  font-family: Calibri,"Raleway",sans-serif;
 }
 #blog .single-blog-post p{
   margin: 0;
@@ -1318,7 +1318,7 @@ h4 {
   margin-top: 10px;
   display: table;
   text-transform: capitalize;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,"Open Sans",sans-serif;
 }
 /* start clients css */
 #clients {
@@ -1379,7 +1379,7 @@ h4 {
 }
 #contact-area .contact-area-text h2 {
   color: #1f1f1f;
-  font-family: "PT Serif",sans-serif;
+  font-family: Calibri,"PT Serif",sans-serif;
   font-size: 28px;
   font-style: italic;
   padding-left: 0;
