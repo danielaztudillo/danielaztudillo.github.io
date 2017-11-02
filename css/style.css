@@ -102,7 +102,7 @@ body {
   color: #878787;
   margin: 0;
   padding: 0;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 img {
   max-width: 100%;
@@ -334,7 +334,7 @@ h4 {
 }
 .nav-footer ul.nav li a {
   display: block;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
   font-size: 14px;
   color: #68a64f;
   line-height: 29px;
@@ -616,7 +616,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #welcome-section h1:before {
   content: "";
@@ -654,7 +654,7 @@ h4 {
   padding: 0 0 10px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #welcome-section .featured-bx{
   width: 100%;
@@ -699,7 +699,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #welcome-section .featured-bx .img-holder{
   float: right;
@@ -732,7 +732,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #about-section .section-title-style h1:before {
   content: "";
@@ -754,7 +754,7 @@ h4 {
   width: 100%;
   text-align: left;
   letter-spacing: 0.3px;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #about-section .sign{
   float: left;
@@ -770,7 +770,7 @@ h4 {
   font-size: 20px;
   color: #FFF; 
   text-align: right;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #about-section .contact-detail .phn-col{
   width: 100%;
@@ -829,7 +829,7 @@ h4 {
   padding: 0 0 20px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #practice-area .section-title-style h1:before {
   content: "";
@@ -945,7 +945,7 @@ h4 {
   width: 100%;
   color: #FFF;
   font-size: 14px;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
   outline:none;
   -webkit-transition: all .3s ease;
           transition: all .3s ease;
@@ -988,7 +988,7 @@ h4 {
   padding: 10px 20px;
   display: inline-block;
   font-weight: 400;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
   border: none;
 }
 .quote-form .contact-submit-button:hover {
@@ -1083,7 +1083,7 @@ h4 {
 }
 .attorney-name p {
   color: #3b3946;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
   font-size: 11px;
   margin: 0;
   text-transform: uppercase;
@@ -1156,7 +1156,7 @@ h4 {
   padding: 0;
   line-height: 30px;
   text-align: center;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
   position: relative;
 }
 #testimonials .text-box p.name {
@@ -1255,7 +1255,7 @@ h4 {
   font-weight: bold;
   text-align: center;
   line-height: 20px;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 #blog .single-blog-post .date span{
   font-weight: normal;
@@ -1318,7 +1318,7 @@ h4 {
   margin-top: 10px;
   display: table;
   text-transform: capitalize;
-  font-family: Calibri,"Open Sans",sans-serif;
+  font-family: Calibri,Calibri,sans-serif;
 }
 /* start clients css */
 #clients {
@@ -1389,7 +1389,7 @@ h4 {
   border: 1px solid #FFFFFF;
   color: #1F1F1F;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 14px;
   font-weight: 600;
   margin-top: 1px;
@@ -1476,7 +1476,7 @@ footer .info-detail p{
   padding:0 0 0 0;
   margin: 0;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   color: #5D5F62;
   font-weight: 400;
   line-height: 22px;
@@ -1543,7 +1543,7 @@ padding-top: 100px;
 }
 .page-breadcrumb a {
   color: #ffffff;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 12px;
   font-weight: 600;
   padding-right: 3px;
@@ -1555,7 +1555,7 @@ padding-top: 100px;
 }
 .page-breadcrumb span {
   color: #ffffff;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 12px;
   font-weight: 600;
   padding-left: 3px;
@@ -1585,7 +1585,7 @@ padding-top: 100px;
 }
 #we-have-best-attorney-area-title .section-title-style p{
   color:#777777;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   line-height:26px;
   text-align: left;
   padding-top: 20px;
@@ -1606,7 +1606,7 @@ padding-top: 100px;
   padding: 0 0 60px 0;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 #team-page-wrap .section-title-style h1:before {
   content: "";
@@ -1686,7 +1686,7 @@ padding-top: 100px;
 }
 #team-page-wrap .attorney-name p {
   color: #3b3946;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 14px;
   margin: 0;
   padding-bottom: 25px;
@@ -1725,7 +1725,7 @@ padding-top: 100px;
 }
 .practice-area-col .content-col h3{
   color: #000;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1809,7 +1809,7 @@ padding-top: 100px;
   padding:0 0 0 0;
   margin: 0;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   color: #5D5F62;
   font-weight: 400;
   line-height: 22px;
@@ -1899,7 +1899,7 @@ padding-top: 100px;
 }
 .progress-label h4 {
   color: #474747;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 13px;
   font-weight: 600;
   margin: 0 0 16px;
@@ -1945,7 +1945,7 @@ padding-top: 100px;
   padding-right: 20px;
   width: 30%;
   font-size:13px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 .leave-comment-form input[type="text"]:last-child{
   margin-right: 0 !important;
@@ -1965,7 +1965,7 @@ padding-top: 100px;
   border: 1px solid #959595;
   color: #2a2a2a;
   display: block;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 16px;
   font-weight: 700;
   padding: 6px 28px 7px;
@@ -1979,7 +1979,7 @@ padding-top: 100px;
   border: 1px solid #959595;
   color: #2a2a2a;
   display: block;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 16px;
   font-weight: 700;
   padding: 6px 25px 7px 25px;
@@ -1987,7 +1987,7 @@ padding-top: 100px;
   background: #1F1F1F none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 14px;
   font-weight: 600;
   padding: 0px 17px 0px 23px;
@@ -2000,7 +2000,7 @@ padding-top: 100px;
   background: #1F1F1F none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-size: 14px;
   font-weight: 600;
   padding: 0px 17px 0px 23px;
@@ -2058,7 +2058,7 @@ padding-top: 100px;
   color: #999999; 
   text-align: center;
   letter-spacing: 0.3px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 #mission-vision-area {
   padding: 100px 0;
@@ -2273,7 +2273,7 @@ padding-top: 100px;
 .post-resource ul li a {
   color: #999999;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   margin: 0 10px 0 10px;
 }
 .post-resource ul li span{
@@ -2290,7 +2290,7 @@ padding-top: 100px;
   color: #999999;
   font-size: 14px;
   line-height: 26px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   text-align: left;
 }
 .single-blog-read-more {
@@ -2302,7 +2302,7 @@ padding-top: 100px;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 .post-pagination ul {
   text-align: left;
@@ -2361,7 +2361,7 @@ padding-top: 100px;
   color: #000;
   font-size: 14px;
   height: 45px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   width: 100%;
   border: 2px solid #DDD;
 }
@@ -2421,7 +2421,7 @@ padding-top: 100px;
   margin-left: 20px;
   -webkit-transition: all 0.3s ease 0s;
           transition: all 0.3s ease 0s;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 #blog-post .sidebar-widget .category-list li a i {
   color: #828282;
@@ -2479,7 +2479,7 @@ padding-top: 100px;
   text-transform:uppercase;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 #blog-post .sidebar-widget.text-widget p {
   font-size: 14px;
@@ -2528,7 +2528,7 @@ padding-top: 100px;
 }
 .single-blog-text h2 {
   color: #000;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   text-align: left;
   font-size: 20px;
   line-height: 26px;
@@ -2541,7 +2541,7 @@ padding-top: 100px;
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 15px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-weight: bold;
 }
 #blog-post.single-post article p {
@@ -2586,7 +2586,7 @@ padding-top: 100px;
 }
 .blog-detail .expert_quote_area .col-lg-12 .expert_quote span {
   font-weight: 300;
-  font-family: "Open Sans",sans-serif;color: #FFF;
+  font-family: Calibri,sans-serif;color: #FFF;
   float: right;
   font-size: 14px;
   font-style: italic;
@@ -2607,7 +2607,7 @@ padding-top: 100px;
   padding: 18px 20px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   margin-right: 16px;
   font-size: 26px;
   font-weight: 700;
@@ -2657,7 +2657,7 @@ padding-top: 100px;
   padding-top: 8px;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   font-weight: 700;
 }
 .blog-detail .administrator .administrator_text p {
@@ -2675,7 +2675,7 @@ padding-top: 100px;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   margin-bottom: 50px;
   margin-top: 30px;
 }
@@ -2734,7 +2734,7 @@ padding-top: 100px;
   text-transform: uppercase;
   font-weight: 700;
   padding: 30px 0 30px 15px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 .blog-detail .comment-box input[type="text"] {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -2921,7 +2921,7 @@ padding-top: 100px;
   font-size: 35px;
   font-weight: 300;
   line-height: 50px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   text-align: center;
   letter-spacing: 1px;  
 }
@@ -3023,7 +3023,7 @@ padding-top: 100px;
   color: #999999;
   text-align: center;
   letter-spacing: 0.3px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 #contact-page .contact-form {
   width: 100%;
@@ -3039,7 +3039,7 @@ padding-top: 100px;
   width: 100%;
   color: #ababab;
   font-size: 14px;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   outline:none;
   -webkit-transition: all .3s ease;
           transition: all .3s ease;
@@ -3123,7 +3123,7 @@ padding-top: 100px;
   font-size: 14px;
   padding: 10px 20px;
   width: 79%;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
   outline: none;
 }
 #faq .faq-search input[type="button"] {
@@ -3135,7 +3135,7 @@ padding-top: 100px;
   margin-left: -4px;
   padding: 10px 40px;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 .general-question {
   margin-top: 50px;
@@ -3154,7 +3154,7 @@ padding-top: 100px;
   font-weight: bold;
   padding: 5px 0;
   text-transform: uppercase;
-  font-family: "Open Sans",sans-serif;
+  font-family: Calibri,sans-serif;
 }
 .general-question .panel-group .panel-default .panel-title a {
   display: block;
