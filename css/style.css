@@ -198,6 +198,9 @@ h4 {
     color: #999ea3;
     border-bottom: 1px solid rgb(164, 136, 78);
 }
+ul {
+list-style-type: none;
+}
 #topbar .social{
   float: right;
 }
