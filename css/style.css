@@ -245,6 +245,8 @@ list-style-type: none;
 #header {
     padding: 6px 0;
     background-color: #fff;
+	border-bottom: #67a650;
+    border-bottom-style: inset;
 }
 #header.stricky-fixed {
   background: #fff;
